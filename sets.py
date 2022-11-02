@@ -1,3 +1,4 @@
+#set methods
 fruits = {"apple", "banana", "cherry"}
 fruits.add("orange")
 #Adds an element to the set
@@ -21,8 +22,8 @@ y = {"google", "microsoft", "apple"}
 #Return a set that contains the items that only exist in set x, and not in set y
 z = x.difference(y)
 
-x = {"apple", "banana", "cherry"}
-y = {"google", "microsoft", "apple"}
+x = {"apple", "juice", "banana", "cherry"}
+y = {"google","juice", "microsoft", "apple"}
 x.difference_update(y)
 #Remove the items that exist in both sets
 print("this is the difference")
