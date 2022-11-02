@@ -18,13 +18,14 @@ print(x)
 
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
-#Returns a set containing the difference between two or more sets
+#Return a set that contains the items that only exist in set x, and not in set y
 z = x.difference(y)
 
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 x.difference_update(y)
-#Removes the items in this set that are also included in another, specified set
+#Remove the items that exist in both sets
+print("this is the difference")
 print(x)
 
 fruits = {"apple", "banana", "cherry"}
@@ -41,23 +42,26 @@ print(z)
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "apple"}
 x.intersection_update(y)
-#Removes the items in this set that are not present in other, specified set(s)
+#Remove the items that is not present in both x and y, returns set on only similar items
 print(x)
 
 x = {"apple", "banana", "cherry"}
 y = {"google", "microsoft", "facebook"}
 #Returns whether two sets have a intersection or not
 z = x.isdisjoint(y)
+print(z)
 
 x = {"a", "b", "c"}
 y = {"f", "e", "d", "c", "b", "a"}
 #Returns whether another set contains this set or not
 z = x.issubset(y)
+print(z)
 
 x = {"f", "e", "d", "c", "b", "a"}
 y = {"a", "b", "c"}
 #Returns whether this set contains another set or not
 z = x.issuperset(y)
+print(z)
 
 fruits = {"apple", "banana", "cherry"}
 fruits.pop()
