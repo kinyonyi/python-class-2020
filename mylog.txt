@@ -1,0 +1,10 @@
+INFO:root:This is an information log
+ERROR:root:This is an error message
+DEBUG:root:This is a debug
+CRITICAL:root:There is a likelyhood of fire outbreak
+WARNING:root:this is a warning
+INFO:root:This is an information log
+ERROR:root:This is an error message
+DEBUG:root:This is a debug
+CRITICAL:root:There is a likelyhood of fire outbreak
+WARNING:root:this is a warning
